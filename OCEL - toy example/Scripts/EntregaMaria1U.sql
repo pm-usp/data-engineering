@@ -1,0 +1,1 @@
+UPDATE entrega SET status = 'Falha' WHERE id = 1
