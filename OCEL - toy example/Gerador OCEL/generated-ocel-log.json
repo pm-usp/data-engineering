@@ -1,0 +1,736 @@
+{
+    "ocel:global-event": {
+        "ocel:activity": "DEFAULT"
+    },
+    "ocel:global-object": {
+        "ocel:type": "DEFAULT"
+    },
+    "ocel:global-log": {
+        "ocel:attribute-names": {},
+        "ocel:object-types": [
+            "item",
+            "pacote",
+            "entrega",
+            "entregador",
+            "lojista"
+        ],
+        "ocel:version": "1.0",
+        "ocel:ordering": "timestamp"
+    },
+    "ocel:events": {
+        "1": {
+            "ocel:activity": "Adicionar lojista",
+            "occel:timestamp": "2021-11-19 13:38:56.356014",
+            "ocel:omap": [
+                "lojista1"
+            ],
+            "ocel:vmap": {
+                "CNPJ": "159753/159",
+                "nome": "\"ABC ltda.\"",
+                "endereco": "\"Predio A\"",
+                "id": "1"
+            }
+        },
+        "2": {
+            "ocel:activity": "Alterar lojista",
+            "occel:timestamp": "2021-11-19 13:38:56.356014",
+            "ocel:omap": [
+                "lojista1"
+            ],
+            "ocel:vmap": {
+                "nome": "\"CBA ltda.\""
+            }
+        },
+        "3": {
+            "ocel:activity": "Alterar lojista",
+            "occel:timestamp": "2021-11-19 13:38:56.356014",
+            "ocel:omap": [
+                "lojista1"
+            ],
+            "ocel:vmap": {
+                "endereco": "\"Predio B\""
+            }
+        },
+        "4": {
+            "ocel:activity": "Adicionar lojista",
+            "occel:timestamp": "2021-11-26 08:46:06.411347",
+            "ocel:omap": [
+                "lojista2"
+            ],
+            "ocel:vmap": {
+                "CNPJ": "156186/267",
+                "nome": "\"Crons s.a.\"",
+                "endereco": "\"Fabrica A\"",
+                "id": "2"
+            }
+        },
+        "5": {
+            "ocel:activity": "Adicionar lojista",
+            "occel:timestamp": "2021-11-26 08:46:06.411347",
+            "ocel:omap": [
+                "lojista3"
+            ],
+            "ocel:vmap": {
+                "CNPJ": "151326/153",
+                "nome": "\"Hans ltda.\"",
+                "endereco": "\"Predio A\"",
+                "id": "3"
+            }
+        },
+        "6": {
+            "ocel:activity": "Adicionar lojista",
+            "occel:timestamp": "2021-11-26 08:46:06.411347",
+            "ocel:omap": [
+                "lojista4"
+            ],
+            "ocel:vmap": {
+                "CNPJ": "246264/464",
+                "nome": "\"Konda s.a.\"",
+                "endereco": "\"Estoque D\"",
+                "id": "4"
+            }
+        },
+        "7": {
+            "ocel:activity": "Adicionar entregador",
+            "occel:timestamp": "2021-11-26 08:51:42.928691",
+            "ocel:omap": [
+                "entregador1"
+            ],
+            "ocel:vmap": {
+                "nome": "Cleber",
+                "veiculo": "Bicicleta",
+                "nivel": "1",
+                "id": "1"
+            }
+        },
+        "8": {
+            "ocel:activity": "Adicionar entregador",
+            "occel:timestamp": "2021-11-26 08:51:42.928691",
+            "ocel:omap": [
+                "entregador2"
+            ],
+            "ocel:vmap": {
+                "nome": "Robson",
+                "veiculo": "Moto",
+                "nivel": "2",
+                "id": "2"
+            }
+        },
+        "9": {
+            "ocel:activity": "Adicionar entregador",
+            "occel:timestamp": "2021-11-26 08:51:42.928691",
+            "ocel:omap": [
+                "entregador3"
+            ],
+            "ocel:vmap": {
+                "nome": "Wilson",
+                "veiculo": "Carro",
+                "nivel": "3",
+                "id": "3"
+            }
+        },
+        "10": {
+            "ocel:activity": "Adicionar entregador",
+            "occel:timestamp": "2021-11-26 08:51:42.928691",
+            "ocel:omap": [
+                "entregador4"
+            ],
+            "ocel:vmap": {
+                "nome": "João",
+                "veiculo": "Van",
+                "nivel": "4",
+                "id": "4"
+            }
+        },
+        "11": {
+            "ocel:activity": "Adicionar item",
+            "occel:timestamp": "2021-11-26 08:52:21.990208",
+            "ocel:omap": [
+                "item2"
+            ],
+            "ocel:vmap": {
+                "nome": "\"Livro Auto-ajuda\"",
+                "quantidade": "1",
+                "destinatario": "Maria",
+                "destino": "\"Casa B\"",
+                "prioridade": "1",
+                "codigo_pedido": "30",
+                "id": "2",
+                "fk_lojista_id": "2"
+            }
+        },
+        "12": {
+            "ocel:activity": "Adicionar item",
+            "occel:timestamp": "2021-11-26 08:52:21.990208",
+            "ocel:omap": [
+                "item3"
+            ],
+            "ocel:vmap": {
+                "nome": "\"Livro de Romance\"",
+                "quantidade": "1",
+                "destinatario": "Maria",
+                "destino": "\"Casa B\"",
+                "prioridade": "1",
+                "codigo_pedido": "30",
+                "id": "3",
+                "fk_lojista_id": "2"
+            }
+        },
+        "13": {
+            "ocel:activity": "Adicionar item",
+            "occel:timestamp": "2021-11-26 08:52:21.990208",
+            "ocel:omap": [
+                "item4"
+            ],
+            "ocel:vmap": {
+                "nome": "\"Livro de Astronomia\"",
+                "quantidade": "1",
+                "destinatario": "Maria",
+                "destino": "\"Casa B\"",
+                "prioridade": "1",
+                "codigo_pedido": "30",
+                "id": "4",
+                "fk_lojista_id": "2"
+            }
+        },
+        "14": {
+            "ocel:activity": "Empacotar itens",
+            "occel:timestamp": "2021-11-26 08:57:12.415425",
+            "ocel:omap": [
+                "pacote2"
+            ],
+            "ocel:vmap": {
+                "peso": "1",
+                "fragil": "0",
+                "id": "2"
+            }
+        },
+        "15": {
+            "ocel:activity": "Seleção item",
+            "occel:timestamp": "2021-11-26 08:57:12.415425",
+            "ocel:omap": [
+                "item_pacote15"
+            ],
+            "ocel:vmap": {
+                "fk_pacote_id": "2",
+                "fk_item_id": "2"
+            }
+        },
+        "16": {
+            "ocel:activity": "Adicionar item",
+            "occel:timestamp": "2021-11-26 09:03:37.588869",
+            "ocel:omap": [
+                "item5"
+            ],
+            "ocel:vmap": {
+                "nome": "\"Fone de ouvido\"",
+                "quantidade": "1",
+                "destinatario": "Jorge",
+                "destino": "\"Casa A\"",
+                "prioridade": "1",
+                "codigo_pedido": "45",
+                "id": "5",
+                "fk_lojista_id": "1"
+            }
+        },
+        "17": {
+            "ocel:activity": "Adicionar item",
+            "occel:timestamp": "2021-11-26 09:03:37.588869",
+            "ocel:omap": [
+                "item6"
+            ],
+            "ocel:vmap": {
+                "nome": "Carregador",
+                "quantidade": "2",
+                "destinatario": "Jorge",
+                "destino": "\"Casa A\"",
+                "prioridade": "1",
+                "codigo_pedido": "45",
+                "id": "6",
+                "fk_lojista_id": "1"
+            }
+        },
+        "18": {
+            "ocel:activity": "Empacotar itens",
+            "occel:timestamp": "2021-11-26 09:05:43.468871",
+            "ocel:omap": [
+                "pacote3"
+            ],
+            "ocel:vmap": {
+                "peso": "3",
+                "fragil": "0",
+                "id": "3"
+            }
+        },
+        "19": {
+            "ocel:activity": "Seleção item",
+            "occel:timestamp": "2021-11-26 09:05:43.468871",
+            "ocel:omap": [
+                "item_pacote19"
+            ],
+            "ocel:vmap": {
+                "fk_pacote_id": "3",
+                "fk_item_id": "3"
+            }
+        },
+        "20": {
+            "ocel:activity": "Seleção item",
+            "occel:timestamp": "2021-11-26 09:05:43.468871",
+            "ocel:omap": [
+                "item_pacote20"
+            ],
+            "ocel:vmap": {
+                "fk_pacote_id": "3",
+                "fk_item_id": "4"
+            }
+        },
+        "21": {
+            "ocel:activity": "Adicionar item",
+            "occel:timestamp": "2021-11-26 09:10:52.137227",
+            "ocel:omap": [
+                "item1"
+            ],
+            "ocel:vmap": {
+                "nome": "Smartphone",
+                "quantidade": "1",
+                "destinatario": "Jorge",
+                "destino": "\"Casa A\"",
+                "prioridade": "3",
+                "codigo_pedido": "25",
+                "id": "1",
+                "fk_lojista_id": "3"
+            }
+        },
+        "22": {
+            "ocel:activity": "Marcar entrega",
+            "occel:timestamp": "2021-11-26 09:11:16.739048",
+            "ocel:omap": [
+                "entrega1"
+            ],
+            "ocel:vmap": {
+                "status": "\"A entregar\"",
+                "data": "2021-11-25",
+                "id": "1",
+                "fk_entregador_id": "1"
+            }
+        },
+        "23": {
+            "ocel:activity": "Seleção pacote",
+            "occel:timestamp": "2021-11-26 09:11:16.739048",
+            "ocel:omap": [
+                "pacote_entrega23"
+            ],
+            "ocel:vmap": {
+                "fk_pacote_id": "2",
+                "fk_entrega_id": "1"
+            }
+        },
+        "24": {
+            "ocel:activity": "Empacotar itens",
+            "occel:timestamp": "2021-11-26 09:11:44.134826",
+            "ocel:omap": [
+                "pacote1"
+            ],
+            "ocel:vmap": {
+                "peso": "0.5",
+                "fragil": "1",
+                "id": "1"
+            }
+        },
+        "25": {
+            "ocel:activity": "Seleção item",
+            "occel:timestamp": "2021-11-26 09:11:44.134826",
+            "ocel:omap": [
+                "item_pacote25"
+            ],
+            "ocel:vmap": {
+                "fk_pacote_id": "1",
+                "fk_item_id": "1"
+            }
+        },
+        "26": {
+            "ocel:activity": "Seleção item",
+            "occel:timestamp": "2021-11-26 09:11:44.134826",
+            "ocel:omap": [
+                "item_pacote26"
+            ],
+            "ocel:vmap": {
+                "fk_pacote_id": "1",
+                "fk_item_id": "5"
+            }
+        },
+        "27": {
+            "ocel:activity": "Seleção item",
+            "occel:timestamp": "2021-11-26 09:11:44.134826",
+            "ocel:omap": [
+                "item_pacote27"
+            ],
+            "ocel:vmap": {
+                "fk_pacote_id": "1",
+                "fk_item_id": "6"
+            }
+        },
+        "28": {
+            "ocel:activity": "Marcar entrega",
+            "occel:timestamp": "2021-11-26 09:16:13.631207",
+            "ocel:omap": [
+                "entrega3"
+            ],
+            "ocel:vmap": {
+                "status": "\"A entregar\"",
+                "data": "2021-11-26",
+                "id": "3",
+                "fk_entregador_id": "3"
+            }
+        },
+        "29": {
+            "ocel:activity": "Seleção pacote",
+            "occel:timestamp": "2021-11-26 09:16:13.631207",
+            "ocel:omap": [
+                "pacote_entrega29"
+            ],
+            "ocel:vmap": {
+                "fk_pacote_id": "1",
+                "fk_entrega_id": "3"
+            }
+        },
+        "30": {
+            "ocel:activity": "Entrega falha",
+            "occel:timestamp": "2021-11-26 09:29:04.979601",
+            "ocel:omap": [
+                "entrega1"
+            ],
+            "ocel:vmap": {
+                "status": "\"Falha\""
+            }
+        },
+        "31": {
+            "ocel:activity": "Marcar entrega",
+            "occel:timestamp": "2021-11-26 09:38:49.759988",
+            "ocel:omap": [
+                "entrega2"
+            ],
+            "ocel:vmap": {
+                "status": "\"A entregar\"",
+                "data": "2021-11-27",
+                "id": "2",
+                "fk_entregador_id": "2"
+            }
+        },
+        "32": {
+            "ocel:activity": "Seleção pacote",
+            "occel:timestamp": "2021-11-26 09:38:49.759988",
+            "ocel:omap": [
+                "pacote_entrega32"
+            ],
+            "ocel:vmap": {
+                "fk_pacote_id": "2",
+                "fk_entrega_id": "2"
+            }
+        },
+        "33": {
+            "ocel:activity": "Seleção pacote",
+            "occel:timestamp": "2021-11-26 09:38:49.759988",
+            "ocel:omap": [
+                "pacote_entrega33"
+            ],
+            "ocel:vmap": {
+                "fk_pacote_id": "3",
+                "fk_entrega_id": "2"
+            }
+        },
+        "34": {
+            "ocel:activity": "Entrega concluída",
+            "occel:timestamp": "2021-11-26 09:49:05.572678",
+            "ocel:omap": [
+                "entrega3"
+            ],
+            "ocel:vmap": {
+                "status": "\"Entregue\""
+            }
+        },
+        "35": {
+            "ocel:activity": "Entrega concluída",
+            "occel:timestamp": "2021-11-26 10:05:17.206937",
+            "ocel:omap": [
+                "entrega2"
+            ],
+            "ocel:vmap": {
+                "status": "\"Entregue\""
+            }
+        }
+    },
+    "ocel:objects": {
+        "lojista1": {
+            "ocel:type": "lojista",
+            "ocel:ovmap": {
+                "CNPJ": "159753/159",
+                "nome": "\"CBA ltda.\"",
+                "endereco": "\"Predio B\"",
+                "id": "1"
+            }
+        },
+        "lojista2": {
+            "ocel:type": "lojista",
+            "ocel:ovmap": {
+                "CNPJ": "156186/267",
+                "nome": "\"Crons s.a.\"",
+                "endereco": "\"Fabrica A\"",
+                "id": "2"
+            }
+        },
+        "lojista3": {
+            "ocel:type": "lojista",
+            "ocel:ovmap": {
+                "CNPJ": "151326/153",
+                "nome": "\"Hans ltda.\"",
+                "endereco": "\"Predio A\"",
+                "id": "3"
+            }
+        },
+        "lojista4": {
+            "ocel:type": "lojista",
+            "ocel:ovmap": {
+                "CNPJ": "246264/464",
+                "nome": "\"Konda s.a.\"",
+                "endereco": "\"Estoque D\"",
+                "id": "4"
+            }
+        },
+        "entregador1": {
+            "ocel:type": "entregador",
+            "ocel:ovmap": {
+                "nome": "Cleber",
+                "veiculo": "Bicicleta",
+                "nivel": "1",
+                "id": "1"
+            }
+        },
+        "entregador2": {
+            "ocel:type": "entregador",
+            "ocel:ovmap": {
+                "nome": "Robson",
+                "veiculo": "Moto",
+                "nivel": "2",
+                "id": "2"
+            }
+        },
+        "entregador3": {
+            "ocel:type": "entregador",
+            "ocel:ovmap": {
+                "nome": "Wilson",
+                "veiculo": "Carro",
+                "nivel": "3",
+                "id": "3"
+            }
+        },
+        "entregador4": {
+            "ocel:type": "entregador",
+            "ocel:ovmap": {
+                "nome": "João",
+                "veiculo": "Van",
+                "nivel": "4",
+                "id": "4"
+            }
+        },
+        "item2": {
+            "ocel:type": "item",
+            "ocel:ovmap": {
+                "nome": "\"Livro Auto-ajuda\"",
+                "quantidade": "1",
+                "destinatario": "Maria",
+                "destino": "\"Casa B\"",
+                "prioridade": "1",
+                "codigo_pedido": "30",
+                "id": "2",
+                "fk_lojista_id": "2"
+            }
+        },
+        "item3": {
+            "ocel:type": "item",
+            "ocel:ovmap": {
+                "nome": "\"Livro de Romance\"",
+                "quantidade": "1",
+                "destinatario": "Maria",
+                "destino": "\"Casa B\"",
+                "prioridade": "1",
+                "codigo_pedido": "30",
+                "id": "3",
+                "fk_lojista_id": "2"
+            }
+        },
+        "item4": {
+            "ocel:type": "item",
+            "ocel:ovmap": {
+                "nome": "\"Livro de Astronomia\"",
+                "quantidade": "1",
+                "destinatario": "Maria",
+                "destino": "\"Casa B\"",
+                "prioridade": "1",
+                "codigo_pedido": "30",
+                "id": "4",
+                "fk_lojista_id": "2"
+            }
+        },
+        "pacote2": {
+            "ocel:type": "pacote",
+            "ocel:ovmap": {
+                "peso": "1",
+                "fragil": "0",
+                "id": "2"
+            }
+        },
+        "item_pacote15": {
+            "ocel:type": "item_pacote",
+            "ocel:ovmap": {
+                "fk_pacote_id": "2",
+                "fk_item_id": "2"
+            }
+        },
+        "item5": {
+            "ocel:type": "item",
+            "ocel:ovmap": {
+                "nome": "\"Fone de ouvido\"",
+                "quantidade": "1",
+                "destinatario": "Jorge",
+                "destino": "\"Casa A\"",
+                "prioridade": "1",
+                "codigo_pedido": "45",
+                "id": "5",
+                "fk_lojista_id": "1"
+            }
+        },
+        "item6": {
+            "ocel:type": "item",
+            "ocel:ovmap": {
+                "nome": "Carregador",
+                "quantidade": "2",
+                "destinatario": "Jorge",
+                "destino": "\"Casa A\"",
+                "prioridade": "1",
+                "codigo_pedido": "45",
+                "id": "6",
+                "fk_lojista_id": "1"
+            }
+        },
+        "pacote3": {
+            "ocel:type": "pacote",
+            "ocel:ovmap": {
+                "peso": "3",
+                "fragil": "0",
+                "id": "3"
+            }
+        },
+        "item_pacote19": {
+            "ocel:type": "item_pacote",
+            "ocel:ovmap": {
+                "fk_pacote_id": "3",
+                "fk_item_id": "3"
+            }
+        },
+        "item_pacote20": {
+            "ocel:type": "item_pacote",
+            "ocel:ovmap": {
+                "fk_pacote_id": "3",
+                "fk_item_id": "4"
+            }
+        },
+        "item1": {
+            "ocel:type": "item",
+            "ocel:ovmap": {
+                "nome": "Smartphone",
+                "quantidade": "1",
+                "destinatario": "Jorge",
+                "destino": "\"Casa A\"",
+                "prioridade": "3",
+                "codigo_pedido": "25",
+                "id": "1",
+                "fk_lojista_id": "3"
+            }
+        },
+        "entrega1": {
+            "ocel:type": "entrega",
+            "ocel:ovmap": {
+                "status": "\"Falha\"",
+                "data": "2021-11-25",
+                "id": "1",
+                "fk_entregador_id": "1"
+            }
+        },
+        "pacote_entrega23": {
+            "ocel:type": "pacote_entrega",
+            "ocel:ovmap": {
+                "fk_pacote_id": "2",
+                "fk_entrega_id": "1"
+            }
+        },
+        "pacote1": {
+            "ocel:type": "pacote",
+            "ocel:ovmap": {
+                "peso": "0.5",
+                "fragil": "1",
+                "id": "1"
+            }
+        },
+        "item_pacote25": {
+            "ocel:type": "item_pacote",
+            "ocel:ovmap": {
+                "fk_pacote_id": "1",
+                "fk_item_id": "1"
+            }
+        },
+        "item_pacote26": {
+            "ocel:type": "item_pacote",
+            "ocel:ovmap": {
+                "fk_pacote_id": "1",
+                "fk_item_id": "5"
+            }
+        },
+        "item_pacote27": {
+            "ocel:type": "item_pacote",
+            "ocel:ovmap": {
+                "fk_pacote_id": "1",
+                "fk_item_id": "6"
+            }
+        },
+        "entrega3": {
+            "ocel:type": "entrega",
+            "ocel:ovmap": {
+                "status": "\"Entregue\"",
+                "data": "2021-11-26",
+                "id": "3",
+                "fk_entregador_id": "3"
+            }
+        },
+        "pacote_entrega29": {
+            "ocel:type": "pacote_entrega",
+            "ocel:ovmap": {
+                "fk_pacote_id": "1",
+                "fk_entrega_id": "3"
+            }
+        },
+        "entrega2": {
+            "ocel:type": "entrega",
+            "ocel:ovmap": {
+                "status": "\"Entregue\"",
+                "data": "2021-11-27",
+                "id": "2",
+                "fk_entregador_id": "2"
+            }
+        },
+        "pacote_entrega32": {
+            "ocel:type": "pacote_entrega",
+            "ocel:ovmap": {
+                "fk_pacote_id": "2",
+                "fk_entrega_id": "2"
+            }
+        },
+        "pacote_entrega33": {
+            "ocel:type": "pacote_entrega",
+            "ocel:ovmap": {
+                "fk_pacote_id": "3",
+                "fk_entrega_id": "2"
+            }
+        }
+    }
+}

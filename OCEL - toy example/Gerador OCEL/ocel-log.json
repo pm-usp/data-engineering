@@ -1,0 +1,28 @@
+{
+    "ocel:global-event": {
+        "ocel:activity": "DEFAULT"
+    },
+    "ocel:global-object": {
+        "ocel:type": "DEFAULT"
+    },
+    "ocel:global-log": {
+        "ocel:attribute-names": {
+
+        },
+        "ocel:object-types": [
+            "item",
+            "pacote",
+            "entrega",
+            "entregador",
+            "lojista"
+        ],
+        "ocel:version": "1.0",
+        "ocel:ordering": "timestamp"
+    },
+    "ocel:events": {
+        
+    },
+    "ocel:objects": {
+        
+    }
+}
